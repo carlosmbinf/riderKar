@@ -5,64 +5,50 @@
  * @format
  */
 
-import React from 'react';
+import React, {useEffect} from 'react';
 
-import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
+import {StyleSheet, useColorScheme} from 'react-native';
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+import {Colors} from 'react-native/Libraries/NewAppScreen';
 
-import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
+import {NavigationContainer, useNavigation} from '@react-navigation/native';
+import {createStackNavigator} from '@react-navigation/stack';
 
-import UserList from './screens/UsersList';
-import CreateUserScreen from './screens/CreateUserScreen';
-import UserDetailScreen from './screens/UserDetailScreen';
-import PruebaAuth from './screens/PruebaAuth';
-import Ubicacion from './screens/pruebas/Ubicacion';
+import UserList from './imports/ui/Users/UsersList';
+import CreateUserScreen from './imports/ui/Users/CreateUserScreen';
+import UserDetailScreen from './imports/ui/Users/UserDetailScreen';
+import PruebaAuth from './imports/ui/Users/PruebaAuth';
+import Ubicacion from './imports/ui/Maps/Ubicacion';
 
-import Meteor, { Mongo, withTracker } from '@meteorrn/core';
-Meteor.connect('ws://192.168.1.9:3000/websocket');
-import { MD3LightTheme as DefaultTheme, Provider as PaperProvider } from 'react-native-paper';
+import Meteor from '@meteorrn/core';
+// Meteor.connect('ws://192.168.1.26:3000/websocket');
+
+import Loguin from './imports/ui/Login/Loguin';
+import HomePedidos from './imports/ui/Pedidos/HomePedidos';
+import CustomNavigationBar from './imports/ui/Header/Header';
 
 const Stack = createStackNavigator();
 
 function MyStack() {
   return (
-    <Stack.Navigator>
-      <Stack.Screen name='Ubicacion' component={Ubicacion} />
+    <Stack.Navigator
+      screenOptions={{
+        header: props => <CustomNavigationBar {...props} />,
+        headerShown: true,
+      }}>
+      <Stack.Screen name="Login" component={Loguin} />
+      <Stack.Screen name="Pedidos" component={HomePedidos} />
 
-      <Stack.Screen name='PruebaAuth' component={PruebaAuth} />
+      <Stack.Screen name="Ubicacion" component={Ubicacion} />
 
-      <Stack.Screen name='CreateUserScreen' component={CreateUserScreen} />
-      <Stack.Screen name='UserList' component={UserList} />
-      <Stack.Screen name='UserDetailScreen' component={UserDetailScreen} />
+      <Stack.Screen name="PruebaAuth" component={PruebaAuth} />
+
+      <Stack.Screen name="CreateUserScreen" component={CreateUserScreen} />
+      <Stack.Screen name="UserList" component={UserList} />
+      <Stack.Screen name="UserDetailScreen" component={UserDetailScreen} />
     </Stack.Navigator>
   );
-
 }
-
-const theme = {
-  ...DefaultTheme,
-  colors: {
-    ...DefaultTheme.colors,
-    primary: 'tomato',
-    secondary: 'yellow',
-  },
-};
 
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
@@ -72,13 +58,11 @@ const App = () => {
   };
 
   return (
-    <PaperProvider theme={theme}>
-      <NavigationContainer>
-        <MyStack />
-      </NavigationContainer>
-    </PaperProvider>
+    <NavigationContainer>
+      <MyStack />
+    </NavigationContainer>
   );
-}
+};
 
 const styles = StyleSheet.create({
   sectionContainer: {
@@ -100,3 +84,4 @@ const styles = StyleSheet.create({
 });
 
 export default App;
+// muestrame un ejemplo de useEfect de React

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.riderkar.app-mergeDebugResources-32:/values-ka/values-ka.xml",
+            "outputFile": "com.riderkar.app-mergeDebugResources-33:/values-ka/values-ka.xml",
             "map": [
                 {
                     "source": "C:\\Users\\carlo\\.gradle\\caches\\transforms-3\\08e1174eef2c209ea18090f1084adbcb\\transformed\\core-1.7.0\\res\\values-ka\\values-ka.xml",

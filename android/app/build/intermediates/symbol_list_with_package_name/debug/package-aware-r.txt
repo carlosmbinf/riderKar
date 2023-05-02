@@ -76,6 +76,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array androidcolors
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -593,6 +594,7 @@ attr roundedCornerRadius
 attr roundingBorderColor
 attr roundingBorderPadding
 attr roundingBorderWidth
+attr scalableType
 attr scopeUris
 attr scrimAnimationDuration
 attr scrimBackground
@@ -809,6 +811,7 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color blue
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -1561,8 +1564,12 @@ id buttonPanel
 id cancel_button
 id catalyst_redbox_title
 id center
+id centerBottom
+id centerBottomCrop
 id centerCrop
 id centerInside
+id centerTop
+id centerTopCrop
 id center_horizontal
 id center_vertical
 id checkbox
@@ -1596,6 +1603,7 @@ id disableHome
 id dropdown_menu
 id edit_query
 id end
+id endInside
 id enterAlways
 id enterAlwaysCollapsed
 id exitUntilCollapsed
@@ -1643,6 +1651,12 @@ id labeled
 id labelled_by
 id largeLabel
 id left
+id leftBottom
+id leftBottomCrop
+id leftCenter
+id leftCenterCrop
+id leftTop
+id leftTopCrop
 id light
 id line1
 id line3
@@ -1702,6 +1716,12 @@ id progress_horizontal
 id radio
 id react_test_id
 id right
+id rightBottom
+id rightBottomCrop
+id rightCenter
+id rightCenterCrop
+id rightTop
+id rightTopCrop
 id right_icon
 id right_side
 id rn_frame_file
@@ -1755,6 +1775,7 @@ id src_in
 id src_over
 id standard
 id start
+id startInside
 id stretch
 id submenuarrow
 id submit_area
@@ -1959,26 +1980,6 @@ menu example_menu2
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
-raw amu_ballon_gx_prefix
-raw amu_basic_folder
-raw amu_basic_placemark
-raw amu_cdata
-raw amu_default_balloon
-raw amu_document_nest
-raw amu_draw_order_ground_overlay
-raw amu_extended_data
-raw amu_ground_overlay
-raw amu_ground_overlay_color
-raw amu_inline_style
-raw amu_multigeometry_placemarks
-raw amu_multiple_placemarks
-raw amu_nested_folders
-raw amu_nested_multigeometry
-raw amu_poly_style_boolean_alpha
-raw amu_poly_style_boolean_numeric
-raw amu_unknwown_folder
-raw amu_unsupported
-raw amu_visibility_ground_overlay
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -2933,6 +2934,7 @@ styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
+styleable scaleStyle scalableType
 xml rn_dev_preferences
 xml standalone_badge
 xml standalone_badge_gravity_bottom_end

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.riderkar.app-mergeDebugResources-32:/values-land/values-land.xml",
+            "outputFile": "com.riderkar.app-mergeDebugResources-33:/values-land/values-land.xml",
             "map": [
                 {
                     "source": "C:\\Users\\carlo\\.gradle\\caches\\transforms-3\\4af7f0d23266db3f5bdb15fc939a61bd\\transformed\\material-1.1.0\\res\\values-land\\values-land.xml",

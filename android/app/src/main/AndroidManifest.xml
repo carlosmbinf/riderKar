@@ -1,10 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_COURSE_LOCATION"/>
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
-
     <application
       android:name=".MainApplication"
       android:label="@string/app_name"
@@ -12,9 +10,6 @@
       android:roundIcon="@mipmap/ic_launcher_round"
       android:allowBackup="false"
       android:theme="@style/AppTheme">
-      <meta-data
-     android:name="com.google.android.geo.API_KEY"
-     android:value="AIzaSyD1r5uJ1PBgUaZkqKtlCgInLJtrA-Fem5g"/>
       <activity
         android:name=".MainActivity"
         android:label="@string/app_name"
@@ -27,6 +22,22 @@
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
       </activity>
-      <service android:name="com.voximplant.foregroundservice.VIForegroundService"> </service>
+      <meta-data
+          android:name="com.google.android.geo.API_KEY"
+          android:value="AIzaSyD1r5uJ1PBgUaZkqKtlCgInLJtrA-Fem5g"/>
+      <meta-data
+        android:name="com.supersami.foregroundservice.notification_channel_name"
+        android:value="Sticky Title"
+      />
+      <meta-data
+        android:name="com.supersami.foregroundservice.notification_channel_description"
+        android:value="Sticky Description."
+      />
+      <meta-data
+        android:name="com.supersami.foregroundservice.notification_color"
+        android:resource="@color/blue"
+      />
+      <service android:name="com.supersami.foregroundservice.ForegroundService"></service>
+      <service android:name="com.supersami.foregroundservice.ForegroundServiceTask"></service>
     </application>
 </manifest>
