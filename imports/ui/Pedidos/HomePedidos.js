@@ -2,9 +2,9 @@ import React, {useState, useEffect} from 'react';
 import {View, StyleSheet, Button} from 'react-native';
 import Meteor, {withTracker} from '@meteorrn/core';
 import {
-    ProductosCollection,
+  ProductosCollection,
   VentasAsignadasCollection,
-  VentasCollection,
+  CarritoCollection,
 } from '../../collections/collections';
 import {Text} from 'react-native-paper';
 import CardPedidos from './CardPedidos';
@@ -15,7 +15,7 @@ const App = props => {
   useEffect(() => {}, []);
 
   return (
-    <View style={{padding: 12, }}>
+    <View style={{padding: 12}}>
       {/* <Text>{JSON.stringify(ventas)}</Text> */}
 
       {ready ? (
@@ -44,24 +44,25 @@ export default HomePedidos = withTracker(props => {
   let ready = Meteor.subscribe('pedidosAsignados', {
     userId: Meteor.userId(),
   }).ready();
-  
-  let ventas = VentasAsignadasCollection.find({userId: Meteor.userId()}).map(
-    pedidos => {
-        console.log(pedidos);
-      Meteor.subscribe('ventas', {_id: pedidos.idVentas}).ready();
-      let venta = VentasCollection.findOne({_id: pedidos.idVentas})
 
-      Meteor.subscribe('productos',{_id:venta.idProducto}).ready();
+  let ventas = VentasAsignadasCollection.find({
+    userId: Meteor.userId(),
+    entregado: false,
+  }).map(pedidos => {
+    console.log(pedidos);
+    Meteor.subscribe('ventas', {_id: pedidos.idVentas}).ready();
+    let venta = CarritoCollection.findOne({_id: pedidos.idVentas});
+
+    Meteor.subscribe('productos', {_id: venta.idProducto}).ready();
     //   let producto = ProductosCollection.findOne({_id:venta.idProducto})
 
     //   console.log("producto",venta);
     //   console.log(venta.producto);
-      return {
-        idPedido: pedidos._id,
-        venta,
-      };
-    },
-  );
+    return {
+      idPedido: pedidos._id,
+      venta,
+    };
+  });
   //   console.log(pedidos);
 
   return {

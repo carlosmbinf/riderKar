@@ -40,16 +40,17 @@ class App extends Component {
 
   requestLocationPermission = async () => {
     try {
-      const granted = await PermissionsAndroid.request(
-        PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION,
-        {
-          title: 'Location Permission',
-          message: 'App needs access to your location',
-          buttonNeutral: 'Ask Me Later',
-          buttonNegative: 'Cancel',
-          buttonPositive: 'OK',
-        },
-      );
+      const granted = await PermissionsAndroid.request() 
+      // request(
+      //   PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION,
+      //   {
+      //     title: 'Location Permission',
+      //     message: 'App needs access to your location',
+      //     buttonNeutral: 'Ask Me Later',
+      //     buttonNegative: 'Cancel',
+      //     buttonPositive: 'OK',
+      //   },
+      // );
       if (granted === PermissionsAndroid.RESULTS.GRANTED) {
         console.log('Location permission granted');
         Geolocation.getCurrentPosition(

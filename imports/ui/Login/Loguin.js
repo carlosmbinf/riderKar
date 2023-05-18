@@ -38,7 +38,7 @@ class Loguin extends Component {
   constructor(props) {
     super(props);
     const {navigation} = this.props;
-    Meteor.connect('ws://192.168.1.26:3000/websocket');
+    Meteor.connect(`ws://192.168.1.6:3000/websocket`);
 
     // Meteor.user()&& (Meteor.user().profile.role == "admin" ? navigation.navigate('Ubicacion') : navigation.navigate('PeliculasVideos', { item: Meteor.userId() }))
 
@@ -51,13 +51,15 @@ class Loguin extends Component {
   }
 
   onLogin() {
-    const {username, password} = this.state;
+    const {username, password,ipserver} = this.state;
     const {navigation} = this.props;
     try {
+    // Meteor.connect(`ws://${ipserver}/websocket`);
+
     } catch (error) {
       Alert.alert(
         'Error de Conexión',
-        'No se pudo conectar al servidor: ' + this.state.ipserver,
+        'No se pudo conectar al servidor: ' + ipserver,
       );
     }
     // Note the /websocket after your URL

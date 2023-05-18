@@ -9,29 +9,29 @@
 9        android:targetSdkVersion="33" />
 10
 11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-11-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\debug\AndroidManifest.xml:5:5-77
-11-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\debug\AndroidManifest.xml:5:22-75
+11-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\debug\AndroidManifest.xml:5:22-75
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:3:5-67
-12-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:3:22-64
+12-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:3:5-67
+12-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:3:22-64
 13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-13-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:4:5-81
-13-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:4:22-78
+13-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:4:5-81
+13-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:4:22-78
 14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-14-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:5:5-79
-14-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:5:22-76
+14-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:5:5-79
+14-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:5:22-76
 15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 15-->[com.facebook.flipper:flipper:0.125.0] C:\Users\carlo\.gradle\caches\transforms-3\236929aa564a4c4dfa1b417642a2a2ae\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
 15-->[com.facebook.flipper:flipper:0.125.0] C:\Users\carlo\.gradle\caches\transforms-3\236929aa564a4c4dfa1b417642a2a2ae\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:22-73
 16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-16-->[:react-native-community_netinfo] D:\Work\REACT-NATIVE\RiderKar\RiderKar\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
-16-->[:react-native-community_netinfo] D:\Work\REACT-NATIVE\RiderKar\RiderKar\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-76
+16-->[:react-native-community_netinfo] D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
+16-->[:react-native-community_netinfo] D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-76
 17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-17-->[:supersami_rn-foreground-service] D:\Work\REACT-NATIVE\RiderKar\RiderKar\node_modules\@supersami\rn-foreground-service\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-77
-17-->[:supersami_rn-foreground-service] D:\Work\REACT-NATIVE\RiderKar\RiderKar\node_modules\@supersami\rn-foreground-service\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-74
+17-->[:supersami_rn-foreground-service] D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\node_modules\@supersami\rn-foreground-service\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-77
+17-->[:supersami_rn-foreground-service] D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\node_modules\@supersami\rn-foreground-service\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-74
 18    <uses-permission android:name="android.permission.WAKE_LOCK" />
-18-->[:supersami_rn-foreground-service] D:\Work\REACT-NATIVE\RiderKar\RiderKar\node_modules\@supersami\rn-foreground-service\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-68
-18-->[:supersami_rn-foreground-service] D:\Work\REACT-NATIVE\RiderKar\RiderKar\node_modules\@supersami\rn-foreground-service\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-65
+18-->[:supersami_rn-foreground-service] D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\node_modules\@supersami\rn-foreground-service\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-68
+18-->[:supersami_rn-foreground-service] D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\node_modules\@supersami\rn-foreground-service\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-65
 19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 19-->[androidx.work:work-runtime:2.7.1] C:\Users\carlo\.gradle\caches\transforms-3\2c9319fc7ed1cad614a4acb992c29a89\transformed\work-runtime-2.7.1\AndroidManifest.xml:27:5-81
 19-->[androidx.work:work-runtime:2.7.1] C:\Users\carlo\.gradle\caches\transforms-3\2c9319fc7ed1cad614a4acb992c29a89\transformed\work-runtime-2.7.1\AndroidManifest.xml:27:22-78
@@ -53,105 +53,105 @@
 29    </queries>
 30
 31    <application
-31-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:6:5-42:19
+31-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:6:5-42:19
 32        android:name="com.riderkar.MainApplication"
-32-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:7:7-38
+32-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:7:7-38
 33        android:allowBackup="false"
-33-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:11:7-34
+33-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:11:7-34
 34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 34-->[androidx.core:core:1.7.0] C:\Users\carlo\.gradle\caches\transforms-3\08e1174eef2c209ea18090f1084adbcb\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 35        android:debuggable="true"
 36        android:icon="@mipmap/ic_launcher"
-36-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:9:7-41
+36-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:9:7-41
 37        android:label="@string/app_name"
-37-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:8:7-39
+37-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:8:7-39
 38        android:roundIcon="@mipmap/ic_launcher_round"
-38-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:10:7-52
+38-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:10:7-52
 39        android:theme="@style/AppTheme"
-39-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:12:7-38
+39-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:12:7-38
 40        android:usesCleartextTraffic="true" >
-40-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\debug\AndroidManifest.xml:8:9-44
+40-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\debug\AndroidManifest.xml:8:9-44
 41        <activity
-41-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\debug\AndroidManifest.xml:11:9-111
+41-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\debug\AndroidManifest.xml:11:9-111
 42            android:name="com.facebook.react.devsupport.DevSettingsActivity"
-42-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\debug\AndroidManifest.xml:11:19-83
+42-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\debug\AndroidManifest.xml:11:19-83
 43            android:exported="false" />
-43-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\debug\AndroidManifest.xml:11:84-108
+43-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\debug\AndroidManifest.xml:11:84-108
 44        <activity
-44-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:13:7-24:18
+44-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:13:7-24:18
 45            android:name="com.riderkar.MainActivity"
-45-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:14:9-37
+45-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:14:9-37
 46            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
-46-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:16:9-118
+46-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:16:9-118
 47            android:exported="true"
-47-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:19:9-32
+47-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:19:9-32
 48            android:label="@string/app_name"
-48-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:15:9-41
+48-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:15:9-41
 49            android:launchMode="singleTask"
-49-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:17:9-40
+49-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:17:9-40
 50            android:windowSoftInputMode="adjustResize" >
-50-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:18:9-51
+50-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:18:9-51
 51            <intent-filter>
-51-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:20:9-23:25
+51-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:20:9-23:25
 52                <action android:name="android.intent.action.MAIN" />
-52-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:21:13-65
-52-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:21:21-62
+52-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:21:13-65
+52-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:21:21-62
 53
 54                <category android:name="android.intent.category.LAUNCHER" />
-54-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:22:13-73
-54-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:22:23-70
+54-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:22:13-73
+54-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:22:23-70
 55            </intent-filter>
 56        </activity>
 57
 58        <meta-data
-58-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:25:7-27:68
+58-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:25:7-27:68
 59            android:name="com.google.android.geo.API_KEY"
-59-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:26:11-56
+59-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:26:11-56
 60            android:value="AIzaSyD1r5uJ1PBgUaZkqKtlCgInLJtrA-Fem5g" />
-60-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:27:11-66
+60-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:27:11-66
 61        <meta-data
-61-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:28:7-31:9
+61-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:28:7-31:9
 62            android:name="com.supersami.foregroundservice.notification_channel_name"
-62-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:29:9-81
+62-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:29:9-81
 63            android:value="Sticky Title" />
-63-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:30:9-37
+63-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:30:9-37
 64        <meta-data
-64-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:32:7-35:9
+64-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:32:7-35:9
 65            android:name="com.supersami.foregroundservice.notification_channel_description"
-65-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:33:9-88
+65-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:33:9-88
 66            android:value="Sticky Description." />
-66-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:34:9-44
+66-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:34:9-44
 67        <meta-data
-67-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:36:7-39:9
+67-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:36:7-39:9
 68            android:name="com.supersami.foregroundservice.notification_color"
-68-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:37:9-74
+68-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:37:9-74
 69            android:resource="@color/blue" />
-69-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:38:9-39
+69-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:38:9-39
 70
 71        <service android:name="com.supersami.foregroundservice.ForegroundService" />
-71-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:40:7-91
-71-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:40:16-80
+71-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:40:7-91
+71-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:40:16-80
 72        <service android:name="com.supersami.foregroundservice.ForegroundServiceTask" />
-72-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:41:7-95
-72-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:41:16-84
+72-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:41:7-95
+72-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:41:16-84
 73
 74        <activity
-74-->[:supersami_rn-foreground-service] D:\Work\REACT-NATIVE\RiderKar\RiderKar\node_modules\@supersami\rn-foreground-service\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-22:20
+74-->[:supersami_rn-foreground-service] D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\node_modules\@supersami\rn-foreground-service\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-22:20
 75            android:name="com.supersami.foregroundservice.MainActivity"
-75-->[:supersami_rn-foreground-service] D:\Work\REACT-NATIVE\RiderKar\RiderKar\node_modules\@supersami\rn-foreground-service\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-72
+75-->[:supersami_rn-foreground-service] D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\node_modules\@supersami\rn-foreground-service\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-72
 76            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-76-->[:supersami_rn-foreground-service] D:\Work\REACT-NATIVE\RiderKar\RiderKar\node_modules\@supersami\rn-foreground-service\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-83
+76-->[:supersami_rn-foreground-service] D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\node_modules\@supersami\rn-foreground-service\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-83
 77            android:exported="true"
-77-->[:supersami_rn-foreground-service] D:\Work\REACT-NATIVE\RiderKar\RiderKar\node_modules\@supersami\rn-foreground-service\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-36
+77-->[:supersami_rn-foreground-service] D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\node_modules\@supersami\rn-foreground-service\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-36
 78            android:launchMode="singleTask"
-78-->[:supersami_rn-foreground-service] D:\Work\REACT-NATIVE\RiderKar\RiderKar\node_modules\@supersami\rn-foreground-service\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-44
+78-->[:supersami_rn-foreground-service] D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\node_modules\@supersami\rn-foreground-service\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-44
 79            android:windowSoftInputMode="adjustResize" >
-79-->[:supersami_rn-foreground-service] D:\Work\REACT-NATIVE\RiderKar\RiderKar\node_modules\@supersami\rn-foreground-service\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-55
+79-->[:supersami_rn-foreground-service] D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\node_modules\@supersami\rn-foreground-service\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-55
 80            <intent-filter>
-80-->[:supersami_rn-foreground-service] D:\Work\REACT-NATIVE\RiderKar\RiderKar\node_modules\@supersami\rn-foreground-service\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-21:29
+80-->[:supersami_rn-foreground-service] D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\node_modules\@supersami\rn-foreground-service\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-21:29
 81                <action android:name="android.intent.action.MAIN" />
-81-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:21:13-65
-81-->D:\Work\REACT-NATIVE\RiderKar\RiderKar\android\app\src\main\AndroidManifest.xml:21:21-62
+81-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:21:13-65
+81-->D:\Work\REACT-NATIVE\RiderKar\React-Native\riderKar\android\app\src\main\AndroidManifest.xml:21:21-62
 82            </intent-filter>
 83        </activity>
 84

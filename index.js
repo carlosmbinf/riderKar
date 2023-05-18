@@ -146,24 +146,28 @@ ReactNativeForegroundService.start({
 
 const actualizarUbicacion = async () => {
   try {
-    const granted = await PermissionsAndroid.request(
+    const granted = await PermissionsAndroid.check(
       PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION,
-      {
-        title: 'Location Permission',
-        message: 'App needs access to your location',
-        buttonNeutral: 'Ask Me Later',
-        buttonNegative: 'Cancel',
-        buttonPositive: 'OK',
-      },
     );
-    if (granted === PermissionsAndroid.RESULTS.GRANTED) {
+
+    // const granted = await PermissionsAndroid.request(
+    //   PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION,
+    //   {
+    //     title: 'Location Permission',
+    //     message: 'App needs access to your location',
+    //     buttonNeutral: 'Ask Me Later',
+    //     buttonNegative: 'Cancel',
+    //     buttonPositive: 'OK',
+    //   },
+    // );
+    if (granted) {
       console.log('Location permission granted');
       Geolocation.getCurrentPosition(
         posicion => {
           const coordenadas = posicion.coords;
-          console.log(coordenadas);
+          // console.log(coordenadas);
 
-          console.log('speed', coordenadas.speed);
+          // console.log('speed', coordenadas.speed);
 
           Meteor.users.update(Meteor.userId(), {
             $set: {
