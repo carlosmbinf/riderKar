@@ -66,13 +66,13 @@ const calculateRegionCenter = (myLat, myLong, shopLat, shopLong) => {
 
 
 
-export default MapsToPedidos = ({tienda, yo}) => {
+export default MapsToPedidos = ({puntoAIr}) => {
   const [speed, setSpeed] = useState(0);
   const [coordenadas, setCoordenadas] = useState(0);
   const [region, setRegion] = useState(
-    calculateRegion(tienda.coordenadas),
+    calculateRegion(puntoAIr.coordenadas || puntoAIr.cordenadas),
   );
-  let to = tienda.coordenadas;
+  let to = puntoAIr.coordenadas || puntoAIr.cordenadas;
   const onRegionChange = region => {
     const currentSpeed = Math.sqrt(
       Math.pow(region.latitudeDelta, 2) + Math.pow(region.longitudeDelta, 2),
@@ -93,13 +93,13 @@ export default MapsToPedidos = ({tienda, yo}) => {
         location => {
           let yo = location.nativeEvent.coordinate
           yo.lalitude && yo.longitude &&
-          tienda.latitude &&
-          tienda.longitude && setRegion(
+          puntoAIr.latitude &&
+          puntoAIr.longitude && setRegion(
             calculateRegionCenter(
               yo.lalitude,
               yo.longitude,
-              tienda.latitude,
-              tienda.longitude
+              puntoAIr.latitude,
+              puntoAIr.longitude
             ),
           );
         }
@@ -128,8 +128,8 @@ export default MapsToPedidos = ({tienda, yo}) => {
         },
       ]}>
       <Marker
-        title={tienda.title}
-        description={tienda.descripcion}
+        title={puntoAIr.title || puntoAIr.name}
+        description={puntoAIr.descripcion}
         coordinate={{latitude: to.latitude, longitude: to.longitude}}
       />
     </MapView>
